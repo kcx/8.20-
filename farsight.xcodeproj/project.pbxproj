@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188F347A199652A600AF34AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F3479199652A600AF34AA /* Foundation.framework */; };
+		188F347C199652A600AF34AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F347B199652A600AF34AA /* CoreGraphics.framework */; };
+		188F347E199652A600AF34AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F347D199652A600AF34AA /* UIKit.framework */; };
+		188F3484199652A600AF34AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188F3482199652A600AF34AA /* InfoPlist.strings */; };
+		188F3486199652A600AF34AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F3485199652A600AF34AA /* main.m */; };
+		188F348A199652A600AF34AA /* com_xawlAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F3489199652A600AF34AA /* com_xawlAppDelegate.m */; };
+		188F348D199652A600AF34AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188F348B199652A600AF34AA /* Main.storyboard */; };
+		188F3490199652A600AF34AA /* com_xawlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F348F199652A600AF34AA /* com_xawlViewController.m */; };
+		188F3492199652A600AF34AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188F3491199652A600AF34AA /* Images.xcassets */; };
+		188F3499199652A600AF34AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F3498199652A600AF34AA /* XCTest.framework */; };
+		188F349A199652A600AF34AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F3479199652A600AF34AA /* Foundation.framework */; };
+		188F349B199652A600AF34AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F347D199652A600AF34AA /* UIKit.framework */; };
+		188F34A3199652A600AF34AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188F34A1199652A600AF34AA /* InfoPlist.strings */; };
+		188F34A5199652A600AF34AA /* farsightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F34A4199652A600AF34AA /* farsightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188F349C199652A600AF34AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188F346E199652A600AF34AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188F3475199652A600AF34AA;
+			remoteInfo = farsight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		188F3476199652A600AF34AA /* farsight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = farsight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188F3479199652A600AF34AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		188F347B199652A600AF34AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		188F347D199652A600AF34AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		188F3481199652A600AF34AA /* farsight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "farsight-Info.plist"; sourceTree = "<group>"; };
+		188F3483199652A600AF34AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188F3485199652A600AF34AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188F3487199652A600AF34AA /* farsight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "farsight-Prefix.pch"; sourceTree = "<group>"; };
+		188F3488199652A600AF34AA /* com_xawlAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_xawlAppDelegate.h; sourceTree = "<group>"; };
+		188F3489199652A600AF34AA /* com_xawlAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_xawlAppDelegate.m; sourceTree = "<group>"; };
+		188F348C199652A600AF34AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188F348E199652A600AF34AA /* com_xawlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_xawlViewController.h; sourceTree = "<group>"; };
+		188F348F199652A600AF34AA /* com_xawlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_xawlViewController.m; sourceTree = "<group>"; };
+		188F3491199652A600AF34AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		188F3497199652A600AF34AA /* farsightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = farsightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188F3498199652A600AF34AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		188F34A0199652A600AF34AA /* farsightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "farsightTests-Info.plist"; sourceTree = "<group>"; };
+		188F34A2199652A600AF34AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188F34A4199652A600AF34AA /* farsightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = farsightTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188F3473199652A600AF34AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F347C199652A600AF34AA /* CoreGraphics.framework in Frameworks */,
+				188F347E199652A600AF34AA /* UIKit.framework in Frameworks */,
+				188F347A199652A600AF34AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F3494199652A600AF34AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F3499199652A600AF34AA /* XCTest.framework in Frameworks */,
+				188F349B199652A600AF34AA /* UIKit.framework in Frameworks */,
+				188F349A199652A600AF34AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188F346D199652A600AF34AA = {
+			isa = PBXGroup;
+			children = (
+				188F347F199652A600AF34AA /* farsight */,
+				188F349E199652A600AF34AA /* farsightTests */,
+				188F3478199652A600AF34AA /* Frameworks */,
+				188F3477199652A600AF34AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188F3477199652A600AF34AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188F3476199652A600AF34AA /* farsight.app */,
+				188F3497199652A600AF34AA /* farsightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188F3478199652A600AF34AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188F3479199652A600AF34AA /* Foundation.framework */,
+				188F347B199652A600AF34AA /* CoreGraphics.framework */,
+				188F347D199652A600AF34AA /* UIKit.framework */,
+				188F3498199652A600AF34AA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		188F347F199652A600AF34AA /* farsight */ = {
+			isa = PBXGroup;
+			children = (
+				188F3488199652A600AF34AA /* com_xawlAppDelegate.h */,
+				188F3489199652A600AF34AA /* com_xawlAppDelegate.m */,
+				188F348B199652A600AF34AA /* Main.storyboard */,
+				188F348E199652A600AF34AA /* com_xawlViewController.h */,
+				188F348F199652A600AF34AA /* com_xawlViewController.m */,
+				188F3491199652A600AF34AA /* Images.xcassets */,
+				188F3480199652A600AF34AA /* Supporting Files */,
+			);
+			path = farsight;
+			sourceTree = "<group>";
+		};
+		188F3480199652A600AF34AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188F3481199652A600AF34AA /* farsight-Info.plist */,
+				188F3482199652A600AF34AA /* InfoPlist.strings */,
+				188F3485199652A600AF34AA /* main.m */,
+				188F3487199652A600AF34AA /* farsight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188F349E199652A600AF34AA /* farsightTests */ = {
+			isa = PBXGroup;
+			children = (
+				188F34A4199652A600AF34AA /* farsightTests.m */,
+				188F349F199652A600AF34AA /* Supporting Files */,
+			);
+			path = farsightTests;
+			sourceTree = "<group>";
+		};
+		188F349F199652A600AF34AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188F34A0199652A600AF34AA /* farsightTests-Info.plist */,
+				188F34A1199652A600AF34AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188F3475199652A600AF34AA /* farsight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188F34A8199652A600AF34AA /* Build configuration list for PBXNativeTarget "farsight" */;
+			buildPhases = (
+				188F3472199652A600AF34AA /* Sources */,
+				188F3473199652A600AF34AA /* Frameworks */,
+				188F3474199652A600AF34AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = farsight;
+			productName = farsight;
+			productReference = 188F3476199652A600AF34AA /* farsight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188F3496199652A600AF34AA /* farsightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188F34AB199652A600AF34AA /* Build configuration list for PBXNativeTarget "farsightTests" */;
+			buildPhases = (
+				188F3493199652A600AF34AA /* Sources */,
+				188F3494199652A600AF34AA /* Frameworks */,
+				188F3495199652A600AF34AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188F349D199652A600AF34AA /* PBXTargetDependency */,
+			);
+			name = farsightTests;
+			productName = farsightTests;
+			productReference = 188F3497199652A600AF34AA /* farsightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188F346E199652A600AF34AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = com.xawl;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = XAWL;
+				TargetAttributes = {
+					188F3496199652A600AF34AA = {
+						TestTargetID = 188F3475199652A600AF34AA;
+					};
+				};
+			};
+			buildConfigurationList = 188F3471199652A600AF34AA /* Build configuration list for PBXProject "farsight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188F346D199652A600AF34AA;
+			productRefGroup = 188F3477199652A600AF34AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188F3475199652A600AF34AA /* farsight */,
+				188F3496199652A600AF34AA /* farsightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188F3474199652A600AF34AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F3492199652A600AF34AA /* Images.xcassets in Resources */,
+				188F3484199652A600AF34AA /* InfoPlist.strings in Resources */,
+				188F348D199652A600AF34AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F3495199652A600AF34AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F34A3199652A600AF34AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188F3472199652A600AF34AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F348A199652A600AF34AA /* com_xawlAppDelegate.m in Sources */,
+				188F3486199652A600AF34AA /* main.m in Sources */,
+				188F3490199652A600AF34AA /* com_xawlViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F3493199652A600AF34AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F34A5199652A600AF34AA /* farsightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188F349D199652A600AF34AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188F3475199652A600AF34AA /* farsight */;
+			targetProxy = 188F349C199652A600AF34AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		188F3482199652A600AF34AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188F3483199652A600AF34AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		188F348B199652A600AF34AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188F348C199652A600AF34AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		188F34A1199652A600AF34AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188F34A2199652A600AF34AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188F34A6199652A600AF34AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188F34A7199652A600AF34AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188F34A9199652A600AF34AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "farsight/farsight-Prefix.pch";
+				INFOPLIST_FILE = "farsight/farsight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		188F34AA199652A600AF34AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "farsight/farsight-Prefix.pch";
+				INFOPLIST_FILE = "farsight/farsight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		188F34AC199652A600AF34AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/farsight.app/farsight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "farsight/farsight-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "farsightTests/farsightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		188F34AD199652A600AF34AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/farsight.app/farsight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "farsight/farsight-Prefix.pch";
+				INFOPLIST_FILE = "farsightTests/farsightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188F3471199652A600AF34AA /* Build configuration list for PBXProject "farsight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F34A6199652A600AF34AA /* Debug */,
+				188F34A7199652A600AF34AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188F34A8199652A600AF34AA /* Build configuration list for PBXNativeTarget "farsight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F34A9199652A600AF34AA /* Debug */,
+				188F34AA199652A600AF34AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		188F34AB199652A600AF34AA /* Build configuration list for PBXNativeTarget "farsightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F34AC199652A600AF34AA /* Debug */,
+				188F34AD199652A600AF34AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188F346E199652A600AF34AA /* Project object */;
+}
